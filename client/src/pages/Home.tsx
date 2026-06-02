@@ -8,13 +8,13 @@
 import { useEffect, useRef } from "react";
 import { Link } from "wouter";
 
-const LA_DRONE = "/manus-storage/121_IGPICPOSTJPG_cc453e65.webp";
-const HEADSHOT_1 = "/manus-storage/B_2PMD08259_EH_PART2_CLRFX_5dafd72e.webp";
-const FINEART_1 = "/manus-storage/99_IGPICPOSTJPG_5d89d422.webp";
-const STREET_1 = "/manus-storage/110_IGPICPOSTJPG_ffa5cdd9.jpg";
-const HEADSHOT_3 = "/manus-storage/PMD08322_EH_PART2_ccef7b17.webp";
-const FINEART_2 = "/manus-storage/5_IGPICPOSTJPG_a9f8e92b.jpg";
-const STREET_2 = "/manus-storage/30_IGPICPOSTJPEG_28f4f68e.webp";
+const LA_DRONE = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/home-bg-image/2-aerial-drone.jpg";
+const HEADSHOT_1 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/headshots/corporate/1-corp.jpg";
+const FINEART_1 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/fine-art/fine-art/bw/1-fineart.jpg";
+const STREET_1 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/fine-art/street/1-street.jpeg";
+const HEADSHOT_3 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/headshots/corporate/2-corp.jpg";
+const FINEART_2 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/fine-art/fine-art/color/12-fineart.jpg";
+const STREET_2 = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/fine-art/street/2-street.jpg";
 
 const sections = [
   {
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="fade-up" style={{ animationDelay: "100ms" }}>
             {/* Camera logo — white tint, subtle, above the title */}
             <img
-              src="/manus-storage/PFP_LOGO1_white_0785839d.png"
+              src="https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/PFP_LOGO1_white.png"
               alt="Patrick Fink Photography"
               style={{
                 height: "64px",
