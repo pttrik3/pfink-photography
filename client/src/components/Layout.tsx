@@ -54,7 +54,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <span style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
               {/* Camera logo — white-tinted via CSS filter so it reads on dark nav */}
               <img
-                src="/manus-storage/PFP_LOGO1_white_0785839d.png"
+                src="https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/pfp-logo/1-pfp-logo.png"
                 alt="Patrick Fink Photography logo"
                 style={{
                   height: "42px",
@@ -184,7 +184,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* Brand */}
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
               <img
-                src="/manus-storage/PFP_LOGO1_white_0785839d.png"
+                src="https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/pfp-logo/1-pfp-logo.png"
                 alt="Patrick Fink Photography"
                 style={{
                   height: "56px",
