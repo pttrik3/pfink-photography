@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 
-const R2_BASE = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/client/images";
+const R2_BASE = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images";
 
 export default function Aerial() {
   const [activeCategory, setActiveCategory] = useState<any>(null);

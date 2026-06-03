@@ -8,7 +8,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 
 // ── Photo assets ──────────────────────────────────────────────
-const R2_BASE = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/client/images";
+const R2_BASE = "https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images";
 const H1 = `${R2_BASE}/headshots/corporate/1-corp.jpg`;  // Blazer / striped shirt
 const H1b = `${R2_BASE}/headshots/corporate/2-corp.jpg`;  // Second corporate
 const H1c = `${R2_BASE}/headshots/corporate/3-corp.jpg`;  // Third corporate
