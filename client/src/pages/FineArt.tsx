@@ -25,7 +25,7 @@ const photos = [
   { src: `${R2_BASE}/fine-art/color/23-fineart.jpg`, title: "13",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/28-fineart.jpg`, title: "14",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/47-fineart.jpg`, title: "15",  caption: "" },
-  
+];
 
 export default function FineArt() {
   const revealRef = useRef<HTMLDivElement>(null);
