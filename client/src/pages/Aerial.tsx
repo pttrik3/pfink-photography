@@ -15,7 +15,6 @@ export default function Aerial() {
       cover: `${R2_BASE}/aerial-drone/1-aerial-drone.jpg`,
       photos: [
         `${R2_BASE}/aerial-drone/1-aerial-drone.jpg`,
-        `${R2_BASE}/aerial-drone/2-aerial-drone.jpg`,
         `${R2_BASE}/aerial-drone/3-aerial-drone.jpg`,
         `${R2_BASE}/aerial-drone/4-aerial-drone.jpg`,
         `${R2_BASE}/aerial-drone/5-aerial-drone.jpg`,

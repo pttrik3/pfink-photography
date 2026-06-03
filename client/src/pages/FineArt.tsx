@@ -20,13 +20,12 @@ const photos = [
   { src: `${R2_BASE}/fine-art/bw/41-fineart.jpg`, title: "8",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/12-fineart.jpg`, title: "9",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/13-fineart.jpg`, title: "10",  caption: "" },
-  { src: `${R2_BASE}/fine-art/color/17-fineart.tiff`, title: "11",  caption: "" },
+  { src: `${R2_BASE}/fine-art/color/17-fineart.jpg`, title: "11",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/22-fineart.jpg`, title: "12",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/23-fineart.jpg`, title: "13",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/28-fineart.jpg`, title: "14",  caption: "" },
   { src: `${R2_BASE}/fine-art/color/47-fineart.jpg`, title: "15",  caption: "" },
-  { src: `${R2_BASE}/fine-art/color/41-fineart.jpg`, title: "16",  caption: "" },
-];
+  
 
 export default function FineArt() {
   const revealRef = useRef<HTMLDivElement>(null);
