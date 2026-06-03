@@ -106,7 +106,7 @@ export default function Home() {
           <div className="fade-up" style={{ animationDelay: "100ms" }}>
             {/* Camera logo — white tint, subtle, above the title */}
             <img
-              src="https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/PFP_LOGO1_white.png"
+              src="https://pub-f887d7fd2fe441ecb02bee0d82d10831.r2.dev/fink-photography/client/images/pfp-logo/1-pfp-logo.png"
               alt="Patrick Fink Photography"
               style={{
                 height: "64px",
